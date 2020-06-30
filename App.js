@@ -4,7 +4,7 @@ import Header from './components/Header/header'
 import AlbmumList from './components/AlbumList/Albumlist'
 const App = props => {
   return (
-    <View>
+    <View style={{flex:1}}>
      <Header headerText="Albums" />
      <AlbmumList/> 
     </View>
